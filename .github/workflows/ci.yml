@@ -22,16 +22,18 @@ jobs:
       - name: Build Project
         run: dotnet build --configuration Release --no-restore
 
-      - name: Stop IIS Website
+      - name: Stop Application Pool
         run: |
           Import-Module WebAdministration
-          Stop-Website -Name "Quantasis-Day2-1"
-
+          Stop-WebAppPool -Name "Quantasis-Day2-1"
+          Start-Sleep -Seconds 5
+      
       - name: Publish Application
         run: dotnet publish --configuration Release --no-build -o C:\Publish\Quantasis-Day2-1
-
-      - name: Start IIS Website
+      
+      - name: Start Application Pool
         if: always()
         run: |
           Import-Module WebAdministration
-          Start-Website -Name "Quantasis-Day2-1"
+          Start-WebAppPool -Name "Quantasis-Day2-1"
+
