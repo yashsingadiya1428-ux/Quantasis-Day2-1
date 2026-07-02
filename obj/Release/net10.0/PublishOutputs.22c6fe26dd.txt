@@ -1,0 +1,7 @@
+C:\Publish\Quantasis-Day2-1\Quantasis-Day2-1.exe
+C:\Publish\Quantasis-Day2-1\appsettings.Development.json
+C:\Publish\Quantasis-Day2-1\appsettings.json
+C:\Publish\Quantasis-Day2-1\Quantasis-Day2-1.dll
+C:\Publish\Quantasis-Day2-1\Quantasis-Day2-1.deps.json
+C:\Publish\Quantasis-Day2-1\Quantasis-Day2-1.runtimeconfig.json
+C:\Publish\Quantasis-Day2-1\Quantasis-Day2-1.pdb
