@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Quantasis-Day2-1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6f3c14a8a343c914e90ae508e096f49d330152a0")]
 [assembly: System.Reflection.AssemblyProductAttribute("Quantasis-Day2-1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Quantasis-Day2-1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
