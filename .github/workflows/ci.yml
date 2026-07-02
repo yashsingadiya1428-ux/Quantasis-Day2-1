@@ -1,4 +1,4 @@
-name: ASP.NET Core CI
+name: ASP.NET Core CI/CD
 
 on:
   push:
@@ -21,3 +21,6 @@ jobs:
 
       - name: Build Project
         run: dotnet build --configuration Release --no-restore
+
+      - name: Publish Application
+        run: dotnet publish --configuration Release --no-build -o C:\Publish\Quantasis-Day2-1
