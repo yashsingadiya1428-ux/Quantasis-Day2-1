@@ -9,7 +9,8 @@ Your exact scenario:
 ### Solution: Reverse Proxy (Nginx / Load Balancer)
 
 
-<img width="1080" height="1275" alt="image" src="https://github.com/user-attachments/assets/9a6bdacc-42c3-4368-9f7d-c256ca9a517d" />
+<img width="1080" height="1126" alt="image" src="https://github.com/user-attachments/assets/d1fb12f5-37ad-418f-bab6-a946ce9f5548" />
+
 
 
 Users / Developers
